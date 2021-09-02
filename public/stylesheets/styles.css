@@ -5,3 +5,39 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2081c3;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+  }
+  
+  nav a {
+    color: white;
+    padding: 0 15px;
+  }
+  
+  button {
+    background-color: #2081c3;
+    border: none;
+    border-radius: 8px;
+    color: #f7f9f9;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-align: center;
+  }
